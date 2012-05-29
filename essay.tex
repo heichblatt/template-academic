@@ -1,0 +1,41 @@
+\documentclass[10pt]{report}
+%\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+%\usepackage[right]{eurosym}
+%\usepackage{harvard}
+
+\linespread{1.3} % "1.5" line spacing
+
+\setcounter{secnumdepth}{-1}	% disable section numbering
+
+% umlauts
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% make URLs conform to "Cite Them Right"
+% \usepackage{url}
+% \DeclareUrlCommand\url{\def\UrlLeft{<}\def\UrlRight{>}\urlstyle{tt}}
+
+\usepackage{natbib}
+\bibpunct{(}{)}{;}{a}{,}{,}
+\linespread{1.6}
+\title{%TODO}
+\author{Seminar %TODO \\ Module %TODO \\ Hannes Eichblatt}
+\date{%TODO}
+%\usepackage[sc]{mathpazo}
+\usepackage{times}
+\begin{document}
+\maketitle
+\tableofcontents
+\section{Introduction} % 1/8 of the whole text
+\paragraph{} % topic paragraph, "establish common ground between the writer and the readers"
+\paragraph{} % orientation paragraph, "provide all the background necessary for the understanding of the arguments"
+\paragraph{} % thesis paragraph, "clarify questions that will be addressed"
+\paragraph{} % organizational paragraph, "indicate concisely and accurately how the argument will be articulated"
+\section{} % body
+\section{Conclusion} % 1/8 of the text, "discuss the theoretical and practical lessons and implications of the arguments presented in the main part"
+
+\nocite{*}
+\bibliography{essay}
+\bibliographystyle{apsr}
+\end{document}
