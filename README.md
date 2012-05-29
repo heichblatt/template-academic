@@ -1,4 +1,4 @@
 template-academic
 =================
 
-LaTeX-Vorlage für wissenschaftliche Arbeiten
+LaTeX template for academic papers.
